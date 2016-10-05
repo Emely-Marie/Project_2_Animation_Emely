@@ -1,3 +1,11 @@
+@import 'https://fonts.googleapis.com/css?family=Lobster|Cookie|Rancho|Berkshire+Swash|Lily+Script+One';
+
+h2 {
+  font-family: 'Lobster';
+  font-size: 50px;
+  color: #03103D;
+}
+
 svg {
   background-color: lightblue;
 }

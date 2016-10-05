@@ -6,11 +6,42 @@
   </head>
   <body>
     <svg width="100%" viewBox="0 0 200 100">
-      <ellipse cx="100" cy="50" rx="30" ry="20"  fill="grey" stroke="black" stroke-width=".5"/>
-      <circle cx="123" cy="30" r="20" fill="grey" stroke="black" stroke-width=".5"/>
-      <circle cx="115" cy="30" r="2"/>
-      <circle cx="135" cy="30" r="2"/>
-      <
+      <ellipse
+        cx="100"
+        cy="50"
+        rx="30"
+        ry="20"
+        fill="grey"
+        stroke="black"
+        stroke-width=".5"/>
+      <circle
+        cx="123"
+        cy="30"
+        r="20"
+        fill="grey"
+        stroke="black"
+        stroke-width=".5">
+        <animate attributeName="cy" from="30" to="70" begin="mouseover" dur="5s"/>
+      </circle>
+      <circle
+        cx="130"
+        cy="30"
+        r="2"
+        />
+      <path
+        d="M 123 20 C 100 10, 100 60, 123 35"
+        fill="transparent"
+        stroke="black"
+        stroke-width=".5"/>
+
+      <path
+        d="M 143 35 C 153 35, 153 25, 153 15 M 153 15, 163 15 C 163 35, 160 44, 137 44"
+        fill="grey"
+        stroke="black"
+        stroke-width=".5"/>
+
+
+
 
 
 

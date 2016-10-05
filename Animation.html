@@ -26,8 +26,9 @@
       <circle
         cx="130"
         cy="30"
-        r="2"
-        />
+        r="2">
+        <animate attributeName="visibility" from="visible" to="hidden" begin="mouseover" dur="1s"/>
+      </circle>
       <path
         d="M 123 20 C 100 10, 100 60, 123 35"
         fill="transparent"
@@ -35,11 +36,20 @@
         stroke-width=".5"/>
 
       <path
+        id="nose"
         d="M 143 35 C 153 35, 153 25, 153 15 M 153 15, 163 15 C 163 35, 160 44, 137 44"
         fill="grey"
         stroke="black"
-        stroke-width=".5"/>
-
+        stroke-width=".5">
+        <animate attributeName="visibility" from="visible" to="hidden" repeatCount="indefinite" dur="2s"/>
+      </path>
+      <path
+        d="M 143 35 C 153 35, 153 45, 153 55 M 153 55, 143 55 C 143 35, 137 44, 137 44"
+        fill="grey"
+        stroke="black"
+        stroke-width=".5">
+        <animate attributeName="visibility" from="hidden" to="visible" repeatCount="indefinite" dur="2s"/>
+      </path>
 
 
 

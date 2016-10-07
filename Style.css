@@ -1,7 +1,7 @@
-@import 'https://fonts.googleapis.com/css?family=Lobster|Cookie|Rancho|Berkshire+Swash|Lily+Script+One|Swanky+And+Moo+Moo';
+@import 'https://fonts.googleapis.com/css?family=Lobster|Cookie|Rancho|Berkshire+Swash|Lily+Script+One|Swanky+and+Moo+Moo';
 
 h2 {
-  font-family: 'Swanky And Moo Moo';
+  font-family: Swanky and Moo Moo;
   font-size: 50px;
   color: #03103D;
 }

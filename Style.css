@@ -1,11 +1,31 @@
 @import 'https://fonts.googleapis.com/css?family=Lobster|Cookie|Rancho|Berkshire+Swash|Lily+Script+One|Swanky+and+Moo+Moo';
 
+body {
+  background-image: url("http://cbien.co/wp-content/uploads/2016/09/modern-concept-white-marble-background-marble-iphone-wallpaper-free-marble-wallpaper-7.jpg");
+}
+
 h2 {
   font-family: Swanky and Moo Moo;
   font-size: 50px;
   color: #03103D;
+  text-align: center;
 }
 
 svg {
-  background-color: lightblue;
+  background: linear-gradient(lightblue 75%, green 25%)
+}
+
+div {
+  background-color: lavender;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 15px;
+  border: 3px dotted yellow;
+}
+
+p {
+  font-family: Lobster;
+  font-size: 20px;
+  color: maroon;
 }

@@ -5,10 +5,30 @@
     <meta charset="utf-8">
   </head>
   <body>
-    <h2> Elephant </h2>
+    <h2> The Swanky Elephant </h2>
+    <div>
+      <p> Elephants are my favorite animals in the world. They represent knowledge, power, and wisdom.  They are often used as a spiritual symbol, as well as a religious icon.  So, I decided to make an elephant swinging her trunk and her head falls off when you hover over her head because it shows that even the strongest of people sometimes lose themselves thinking over their head.  And, her head also turns pink on the way down to show that with a little bit of love and support, everything will be okay. </p>
+    </div>
     <svg width="100%" viewBox="0 0 200 100">
-      <rect x="76" y="60" width="17" height="25" fill="grey" stroke="black" stroke-width=".5"/>
-      <rect x="106" y="60" width="17" height="25" fill="grey" stroke="black" stroke-width=".5"/>
+
+      <rect
+        x="76"
+        y="60"
+        width="17"
+        height="25"
+        fill="grey"
+        stroke="black"
+        stroke-width=".5"/>
+
+      <rect
+        x="106"
+        y="60"
+        width="17"
+        height="25"
+        fill="grey"
+        stroke="black"
+        stroke-width=".5"/>
+
       <ellipse
         cx="100"
         cy="50"
@@ -17,7 +37,13 @@
         fill="grey"
         stroke="black"
         stroke-width=".5"/>
-      <path d="M 70 50 S 50 30, 60 40 "/>
+
+      <path
+        d="M 70 50 S 60 50, 60 40, 60 30, 70 50"
+        fill="grey"
+        stroke="black"
+        stroke-width="0.5"/>
+
       <circle
         cx="123"
         cy="30"
@@ -25,34 +51,59 @@
         fill="grey"
         stroke="black"
         stroke-width=".5">
-        <animate attributeName="cy" from="30" to="70" begin="mouseover" dur="5s"/>
-        <animate attributeName="fill" from="grey" to="pink" begin="mouseover" dur="5s"/>
+          <animate
+            attributeName="cy"
+            from="30" to="70"
+            begin="mouseover"
+            dur="5s"/>
+          <animate
+            attributeName="fill"
+            from="grey"
+            to="pink"
+            begin="mouseover"
+            dur="5s"/>
       </circle>
+
       <circle
         cx="130"
         cy="30"
         r="2">
-        <animate attributeName="visibility" from="visible" to="hidden" begin="mouseover" dur="1s"/>
       </circle>
+
       <path
         d="M 123 20 C 100 10, 100 60, 123 35"
         fill="transparent"
         stroke="black"
         stroke-width=".5"/>
+
       <path
         d="M 143 35 C 153 35, 153 25, 153 15 S 153 15, 163 15 C 163 35, 160 44, 137 44"
         fill="grey"
         stroke="black"
         stroke-width=".5">
-        <animate attributeName="visibility" from="visible" to="hidden" repeatCount="indefinite" dur="2s"/>
+          <animate
+            attributeName="visibility"
+            from="visible"
+            to="hidden"
+            repeatCount="indefinite"
+            dur="2s"/>
       </path>
+
       <path
         d="M 142 35 C 153 35, 153 45, 153 55 S 143 55, 142 55 C 143 35, 137 44, 137 44"
         fill="grey"
         stroke="black"
         stroke-width=".5">
-        <animate attributeName="visibility" from="hidden" to="visible" repeatCount="indefinite" dur="2s"/>
+          <animate
+            attributeName="visibility"
+            from="hidden" to="visible"
+            repeatCount="indefinite"
+            dur="2s"/>
       </path>
+
+      <rect
+
+
 
 
 

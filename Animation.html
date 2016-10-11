@@ -42,7 +42,14 @@
         d="M 70 50 S 60 50, 60 40, 60 30, 70 50"
         fill="grey"
         stroke="black"
-        stroke-width="0.5"/>
+        stroke-width="0.5">
+          <animate
+            attributeName="d"
+            from="M 70 50 S 60 50, 60 40, 60 30, 70 50"
+            to="M 70 50 C 50 40, 50 60, 70 50"
+            dur="2s"
+            repeatCount="indefinite"/>
+      </path>
 
       <circle
         cx="123"
@@ -54,12 +61,6 @@
           <animate
             attributeName="cy"
             from="30" to="70"
-            begin="mouseover"
-            dur="5s"/>
-          <animate
-            attributeName="fill"
-            from="grey"
-            to="pink"
             begin="mouseover"
             dur="5s"/>
       </circle>
@@ -101,12 +102,24 @@
             dur="2s"/>
       </path>
 
-      <rect
-
-
-
-
-
+     <path
+      d="M 25 20
+          a 5 5, 1 0, 0 0 20
+          h 20
+          a 5 5, 1 0, 0 0 -15
+          a 3 3, 1 0, 0 -10 -10
+          a 3 3, 1 0, 0 -9 5
+          z"
+      fill="white"
+      stroke="black"
+      fill-opacity="0.5">
+        <animate
+          attributeName="fill"
+          from="white"
+          to="grey"
+          dur="3s"
+          begin="click"/>
+    </path>
 
 
 
